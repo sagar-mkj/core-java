@@ -1,60 +1,58 @@
 class Zomato {
+
     public static double search(String foodName) {
-        if(foodName.equals("MasalaDosa")) return 90;
-        else if(foodName.equals("IdliSambar")) return 50;
-        else if(foodName.equals("VadaSambar")) return 45;
-        else if(foodName.equals("Pongal")) return 60;
-        else if(foodName.equals("PooriBhaji")) return 70;
-        else if(foodName.equals("Upma")) return 40;
-        else if(foodName.equals("RavaDosa")) return 85;
-        else if(foodName.equals("OnionUttapam")) return 95;
-        else if(foodName.equals("TomatoRice")) return 80;
-        else if(foodName.equals("LemonRice")) return 75;
-        else if(foodName.equals("CurdRice")) return 65;
-        else if(foodName.equals("Bisibelebath")) return 100;
-        else if(foodName.equals("VegBiryani")) return 130;
-        else if(foodName.equals("ChickenBiryani")) return 180;
-        else if(foodName.equals("MuttonBiryani")) return 220;
-        else if(foodName.equals("PaneerButterMasala")) return 160;
-        else if(foodName.equals("ButterNaan")) return 40;
-        else if(foodName.equals("GarlicNaan")) return 50;
-        else if(foodName.equals("TandooriRoti")) return 30;
-        else if(foodName.equals("PalakPaneer")) return 150;
-        else if(foodName.equals("CholeBhature")) return 120;
-        else if(foodName.equals("RajmaChawal")) return 110;
-        else if(foodName.equals("DalTadka")) return 100;
-        else if(foodName.equals("FriedRice")) return 120;
-        else if(foodName.equals("GobiManchurian")) return 140;
-        else if(foodName.equals("HakkaNoodles")) return 115;
-        else if(foodName.equals("VegManchowSoup")) return 90;
-        else if(foodName.equals("SpringRoll")) return 95;
-        else if(foodName.equals("PavBhaji")) return 85;
-        else if(foodName.equals("VadaPav")) return 25;
-        else if(foodName.equals("Samosa")) return 20;
-        else if(foodName.equals("Kachori")) return 25;
-        else if(foodName.equals("AlooParatha")) return 70;
-        else if(foodName.equals("PaneerParatha")) return 90;
-        else if(foodName.equals("EggParatha")) return 80;
-        else if(foodName.equals("ChickenRoll")) return 110;
-        else if(foodName.equals("VegBurger")) return 90;
-        else if(foodName.equals("ChickenBurger")) return 120;
-        else if(foodName.equals("MargheritaPizza")) return 199;
-        else if(foodName.equals("FarmhousePizza")) return 299;
-        else if(foodName.equals("PepperoniPizza")) return 349;
-        else if(foodName.equals("CheeseSandwich")) return 70;
-        else if(foodName.equals("GrilledSandwich")) return 90;
-        else if(foodName.equals("MysorePak")) return 60;
-        else if(foodName.equals("GulabJamun")) return 50;
-        else if(foodName.equals("Rasgulla")) return 45;
-        else if(foodName.equals("Jalebi")) return 40;
-        else if(foodName.equals("ChocolateCake")) return 120;
-        else if(foodName.equals("BlackForestCake")) return 150;
-        else if(foodName.equals("StrawberryMilkshake")) return 100;
-        else if(foodName.equals("MangoMilkshake")) return 110;
-        else if(foodName.equals("ColdCoffee")) return 90;
-        else if(foodName.equals("Lassi")) return 60;
-        else if(foodName.equals("Buttermilk")) return 30;
-        else if(foodName.equals("TenderCoconut")) return 40;
-        return 0;
+
+        if(foodName.equals("MasalaDosa")){ double price=90; return price; }
+        else if(foodName.equals("IdliSambar")){ double price=50; return price; }
+        else if(foodName.equals("VadaSambar")){ double price=45; return price; }
+        else if(foodName.equals("Pongal")){ double price=60; return price; }
+        else if(foodName.equals("PooriBhaji")){ double price=70; return price; }
+        else if(foodName.equals("Upma")){ double price=40; return price; }
+        else if(foodName.equals("RavaDosa")){ double price=85; return price; }
+        else if(foodName.equals("OnionUttapam")){ double price=95; return price; }
+        else if(foodName.equals("TomatoRice")){ double price=80; return price; }
+        else if(foodName.equals("LemonRice")){ double price=75; return price; }
+        else if(foodName.equals("CurdRice")){ double price=65; return price; }
+        else if(foodName.equals("Bisibelebath")){ double price=100; return price; }
+        else if(foodName.equals("VegBiryani")){ double price=130; return price; }
+        else if(foodName.equals("ChickenBiryani")){ double price=180; return price; }
+        else if(foodName.equals("MuttonBiryani")){ double price=220; return price; }
+        else if(foodName.equals("PaneerButterMasala")){ double price=160; return price; }
+        else if(foodName.equals("ButterNaan")){ double price=40; return price; }
+        else if(foodName.equals("GarlicNaan")){ double price=50; return price; }
+        else if(foodName.equals("TandooriRoti")){ double price=30; return price; }
+        else if(foodName.equals("PalakPaneer")){ double price=150; return price; }
+        else if(foodName.equals("CholeBhature")){ double price=120; return price; }
+        else if(foodName.equals("RajmaChawal")){ double price=110; return price; }
+        else if(foodName.equals("DalTadka")){ double price=100; return price; }
+        else if(foodName.equals("FriedRice")){ double price=120; return price; }
+        else if(foodName.equals("GobiManchurian")){ double price=140; return price; }
+        else if(foodName.equals("HakkaNoodles")){ double price=115; return price; }
+        else if(foodName.equals("SpringRoll")){ double price=95; return price; }
+        else if(foodName.equals("PavBhaji")){ double price=85; return price; }
+        else if(foodName.equals("VadaPav")){ double price=25; return price; }
+        else if(foodName.equals("Samosa")){ double price=20; return price; }
+        else if(foodName.equals("Kachori")){ double price=25; return price; }
+        else if(foodName.equals("AlooParatha")){ double price=70; return price; }
+        else if(foodName.equals("PaneerParatha")){ double price=90; return price; }
+        else if(foodName.equals("EggParatha")){ double price=80; return price; }
+        else if(foodName.equals("ChickenRoll")){ double price=110; return price; }
+        else if(foodName.equals("VegBurger")){ double price=90; return price; }
+        else if(foodName.equals("ChickenBurger")){ double price=120; return price; }
+        else if(foodName.equals("MargheritaPizza")){ double price=199; return price; }
+        else if(foodName.equals("FarmhousePizza")){ double price=299; return price; }
+        else if(foodName.equals("PepperoniPizza")){ double price=349; return price; }
+        else if(foodName.equals("CheeseSandwich")){ double price=70; return price; }
+        else if(foodName.equals("GrilledSandwich")){ double price=90; return price; }
+        else if(foodName.equals("MysorePak")){ double price=60; return price; }
+        else if(foodName.equals("GulabJamun")){ double price=50; return price; }
+        else if(foodName.equals("Rasgulla")){ double price=45; return price; }
+        else if(foodName.equals("Jalebi")){ double price=40; return price; }
+        else if(foodName.equals("ChocolateCake")){ double price=120; return price; }
+        else if(foodName.equals("BlackForestCake")){ double price=150; return price; }
+        else if(foodName.equals("ColdCoffee")){ double price=90; return price; }
+        else if(foodName.equals("MangoMilkshake")){ double price=110; return price; }
+        else if(foodName.equals("StrawberryMilkshake")){ double price=100; return price; }
+        else { double price=0; return price; }
     }
 }

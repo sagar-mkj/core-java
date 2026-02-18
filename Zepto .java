@@ -1,60 +1,53 @@
 class Zepto {
+
     public static double search(String foodName) {
-        if(foodName.equals("AmulMilk")) return 30;
-        else if(foodName.equals("TonedMilk")) return 28;
-        else if(foodName.equals("BrownBread")) return 40;
-        else if(foodName.equals("WhiteBread")) return 35;
-        else if(foodName.equals("FarmEggsPack")) return 75;
-        else if(foodName.equals("SaltedButter")) return 55;
-        else if(foodName.equals("CheddarCheeseBlock")) return 120;
-        else if(foodName.equals("PaneerBlock")) return 90;
-        else if(foodName.equals("CurdCup")) return 25;
-        else if(foodName.equals("GreekYogurt")) return 60;
-        else if(foodName.equals("Cornflakes")) return 110;
-        else if(foodName.equals("ChocoFlakes")) return 130;
-        else if(foodName.equals("OatsPacket")) return 95;
-        else if(foodName.equals("BasmatiRice")) return 150;
-        else if(foodName.equals("ToorDal")) return 140;
-        else if(foodName.equals("MoongDal")) return 130;
-        else if(foodName.equals("ChanaDal")) return 125;
-        else if(foodName.equals("SunflowerOil")) return 160;
-        else if(foodName.equals("OliveOil")) return 350;
-        else if(foodName.equals("TomatoKetchup")) return 90;
-        else if(foodName.equals("GreenChutney")) return 45;
-        else if(foodName.equals("PeanutButterCrunchy")) return 180;
-        else if(foodName.equals("HazelnutSpread")) return 220;
-        else if(foodName.equals("PotatoChips")) return 20;
-        else if(foodName.equals("NachoChips")) return 50;
-        else if(foodName.equals("DarkChocolate")) return 120;
-        else if(foodName.equals("MilkChocolate")) return 60;
-        else if(foodName.equals("VanillaIceCreamTub")) return 180;
-        else if(foodName.equals("ChocolateIceCreamTub")) return 200;
-        else if(foodName.equals("FrozenPeas")) return 90;
-        else if(foodName.equals("SweetCornFrozen")) return 85;
-        else if(foodName.equals("ChickenNuggetsFrozen")) return 240;
-        else if(foodName.equals("VegNuggetsFrozen")) return 200;
-        else if(foodName.equals("InstantNoodles")) return 15;
-        else if(foodName.equals("PastaPacket")) return 70;
-        else if(foodName.equals("TomatoPuree")) return 40;
-        else if(foodName.equals("CoconutMilk")) return 60;
-        else if(foodName.equals("AlmondMilk")) return 150;
-        else if(foodName.equals("EnergyDrink")) return 110;
-        else if(foodName.equals("SoftDrinkBottle")) return 45;
-        else if(foodName.equals("MineralWater")) return 20;
-        else if(foodName.equals("OrganicHoney")) return 250;
-        else if(foodName.equals("BrownSugar")) return 60;
-        else if(foodName.equals("WhiteSugar")) return 45;
-        else if(foodName.equals("TurmericPowder")) return 40;
-        else if(foodName.equals("RedChilliPowder")) return 50;
-        else if(foodName.equals("GaramMasala")) return 55;
-        else if(foodName.equals("TeaPowder")) return 140;
-        else if(foodName.equals("CoffeePowder")) return 160;
-        else if(foodName.equals("BiscuitsPacket")) return 30;
-        else if(foodName.equals("RuskPacket")) return 35;
-        else if(foodName.equals("BananaChips")) return 50;
-        else if(foodName.equals("CashewNuts")) return 300;
-        else if(foodName.equals("Almonds")) return 320;
-        else if(foodName.equals("Raisins")) return 180;
-        return 0;
+
+        if(foodName.equals("AmulMilk")){ double price=30; return price; }
+        else if(foodName.equals("TonedMilk")){ double price=28; return price; }
+        else if(foodName.equals("BrownBread")){ double price=40; return price; }
+        else if(foodName.equals("WhiteBread")){ double price=35; return price; }
+        else if(foodName.equals("FarmEggsPack")){ double price=75; return price; }
+        else if(foodName.equals("SaltedButter")){ double price=55; return price; }
+        else if(foodName.equals("CheddarCheeseBlock")){ double price=120; return price; }
+        else if(foodName.equals("PaneerBlock")){ double price=90; return price; }
+        else if(foodName.equals("CurdCup")){ double price=25; return price; }
+        else if(foodName.equals("GreekYogurt")){ double price=60; return price; }
+        else if(foodName.equals("Cornflakes")){ double price=110; return price; }
+        else if(foodName.equals("ChocoFlakes")){ double price=130; return price; }
+        else if(foodName.equals("OatsPacket")){ double price=95; return price; }
+        else if(foodName.equals("BasmatiRice")){ double price=150; return price; }
+        else if(foodName.equals("ToorDal")){ double price=140; return price; }
+        else if(foodName.equals("MoongDal")){ double price=130; return price; }
+        else if(foodName.equals("ChanaDal")){ double price=125; return price; }
+        else if(foodName.equals("SunflowerOil")){ double price=160; return price; }
+        else if(foodName.equals("OliveOil")){ double price=350; return price; }
+        else if(foodName.equals("TomatoKetchup")){ double price=90; return price; }
+        else if(foodName.equals("GreenChutney")){ double price=45; return price; }
+        else if(foodName.equals("PeanutButterCrunchy")){ double price=180; return price; }
+        else if(foodName.equals("HazelnutSpread")){ double price=220; return price; }
+        else if(foodName.equals("PotatoChips")){ double price=20; return price; }
+        else if(foodName.equals("NachoChips")){ double price=50; return price; }
+        else if(foodName.equals("DarkChocolate")){ double price=120; return price; }
+        else if(foodName.equals("MilkChocolate")){ double price=60; return price; }
+        else if(foodName.equals("VanillaIceCreamTub")){ double price=180; return price; }
+        else if(foodName.equals("ChocolateIceCreamTub")){ double price=200; return price; }
+        else if(foodName.equals("FrozenPeas")){ double price=90; return price; }
+        else if(foodName.equals("SweetCornFrozen")){ double price=85; return price; }
+        else if(foodName.equals("ChickenNuggetsFrozen")){ double price=240; return price; }
+        else if(foodName.equals("VegNuggetsFrozen")){ double price=200; return price; }
+        else if(foodName.equals("InstantNoodles")){ double price=15; return price; }
+        else if(foodName.equals("PastaPacket")){ double price=70; return price; }
+        else if(foodName.equals("TomatoPuree")){ double price=40; return price; }
+        else if(foodName.equals("CoconutMilk")){ double price=60; return price; }
+        else if(foodName.equals("AlmondMilk")){ double price=150; return price; }
+        else if(foodName.equals("EnergyDrink")){ double price=110; return price; }
+        else if(foodName.equals("SoftDrinkBottle")){ double price=45; return price; }
+        else if(foodName.equals("MineralWater")){ double price=20; return price; }
+        else if(foodName.equals("OrganicHoney")){ double price=250; return price; }
+        else if(foodName.equals("BrownSugar")){ double price=60; return price; }
+        else if(foodName.equals("WhiteSugar")){ double price=45; return price; }
+        else if(foodName.equals("TurmericPowder")){ double price=40; return price; }
+        else if(foodName.equals("RedChilliPowder")){ double price=50; return price; }
+        else { double price=0; return price; }
     }
 }
